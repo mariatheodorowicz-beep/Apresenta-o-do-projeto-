@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f0f2f5;
+    color: #1c1e21;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background: linear-gradient(135deg, #1e293b, #0f172a);
+    color: #ffffff;
+    text-align: center;
+    padding: 2.5rem 1rem;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    color: #94a3b8;
+    font-size: 1.1rem;
+}
+
+.container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    flex: 1;
+}
+
+.intro-card {
+    background: #ffffff;
+    padding: 1.5rem;
+    border-radius: 12px;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.card {
+    background: #ffffff;
+    padding: 1.8rem;
+    border-radius: 12px;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    position: relative;
+}
+
+.card.discovery-1 {
+    border-top: 5px solid #2563eb;
+}
+
+.card.discovery-2 {
+    border-top: 5px solid #7c3aed;
+}
+
+.badge {
+    background-color: #f1f5f9;
+    color: #475569;
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding: 0.3rem 0.6rem;
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+
+.card h2 {
+    margin: 0.8rem 0;
+    font-size: 1.3rem;
+}
+
+.card p {
+    margin-bottom: 0.8rem;
+    line-height: 1.6;
+    color: #334155;
+}
+
+button {
+    background-color: #0f172a;
+    color: #ffffff;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background 0.2s ease;
+}
+
+button:hover {
+    background-color: #2563eb;
+}
+
+.detalhe {
+    margin-top: 1rem;
+    font-style: italic;
+    background-color: #f8fafc;
+    padding: 1rem;
+    border-left: 3px solid #94a3b8;
+    border-radius: 4px;
+    color: #475569;
+}
+
+.escondido {
+    display: none;
+}
+
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    background-color: #e2e8f0;
+    color: #64748b;
+    font-size: 0.9rem;
+}
